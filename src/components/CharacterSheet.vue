@@ -93,7 +93,7 @@
         </div>
         <div class="col">
           <div class="name">Armour</div>
-          <div class="value">17 > 6%</div>
+          <div class="value">{{ $store.getters.armor }} > 6%</div>
         </div>
         <div class="col">
           <div class="name">Stun Avoidance</div>
